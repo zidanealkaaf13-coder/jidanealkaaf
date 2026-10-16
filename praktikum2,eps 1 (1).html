@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+  
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Pemesanan Pizza</h1>
+        <p>silahkan isi form pemesanan ini dengan lengkap dan benar
+
+        </p>
+        <form action="hasil-pizza.html" method="post">
+            <fieldset>
+                <legend>Informasi Pemesanan</legend>
+                <p>
+                    <label for="customername">Nama</label>
+                    <input type="text" id="customername" name="customername" required>
+                </p>
+                <p>
+                    <label for="address">address:</label>
+                    <input type="text" id="address" name="address" required>
+                </p>
+                <p>
+                    <label for="telephone">telephone:</label>
+                    <input type="text" id="telephone" name="telephone" required>
+                </p>
+                <p>
+                    <label for="email">email:</label>
+                    <input type="text" id="email" name="email" required>
+                </p>
+                <p>
+                     <label for="instructions">delivery instruction:</label><br>
+                     <textarea 
+                     id="instructions"
+                     name="instructions"
+                     rows="4"
+                     cols="50"
+                     maxlength="400"
+                     placeholder="no more than 400 characters"></textarea>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>design your dream pizza</legend>
+                <p><strong>pizza specs</strong></p>
+                <p>pilih salah satu</p>
+
+                <p>
+                <input type="radio" id="classic" name="crust" value="white" required>
+                <label for="classic">classic white</label><br>
+                </p>
+                <p>
+                <input type="radio" id="multigrain" name="crust" value="multigrain">
+                <label for="multigrain">multigrain</label><br>
+                </p>
+                <p>
+                <input type="radio" id="cheese" name="crust" value="cheese-stuffed">
+                <label for="cheese">cheese-stuffed crust</label><br>
+                </p>
+                <p>
+                <input type="radio" id="gluten" name="crust" value="gluten-free">
+                <label for="gluten">gluten-free</label><br>
+                </p>
+
+                <p><strong>topping</strong></p>
+
+                <p>
+                <input type="checkbox" id="red" name="toppings[]" value="red sauce" checked>
+                <label for="red">red sauce</label><br>
+                </p>
+                  <input type="checkbox" id="white" name="toppings[]" value="white sauce">
+                <label for="white">white sauce</label><br>
+                </p>
+                <p>
+                <input type="checkbox" id="mozzarella" name="toppings[]" value="mozzarella">
+                <label for="mozzarella">mozzarella cheese</label><br>
+                </p>
+                <p>
+                <input type="checkbox" id="sausage" name="toppings[]" value="sausage">
+                <label for="sausage">sausage</label><br>
+                </p>
+                <p>
+                <input type="checkbox" id="mushrooms" name="toppings[]" value="mushrooms">
+                <label for="mushrooms">mushrooms</label><br>
+                </p>
+                <p>
+                <input type="checkbox" id="olives" name="toppings[]" value="olives">
+                <label for="olives">olives</label><br>
+                </p>
+                <p>
+                <input type="checkbox" id="pineapple" name="toppings[]" value="pineapple">
+                <label for="pineapple">pineapple</label><br>
+                </p>
+
+                <p>
+                    <label for="number">how many pizzas:</label>
+                    <select id="number" name="number">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </p>
+            </fieldset>
+
+            <p>
+                <input type="submit" value="Bring me a pizza!">
+                <input type="reset" value="Reset">
+            </p>
+        </form>
+</body>
+</html>

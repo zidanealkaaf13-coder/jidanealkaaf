@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Hasil Pemesanan Barang</title>
+</head>
+<body>
+
+    <!-- Menu Navigasi -->
+    <table border="1" width="100%">
+        <tr align="center">
+            <td><a href="#">Home</a></td>
+            <td><a href="#">Register</a></td>
+            <td><a href="#">Policy</a></td>
+            <td><a href="#">About</a></td>
+        </tr>
+    </table>
+
+    <br>
+
+    <form>
+        <table>
+            <tr>
+                <!-- Kolom kiri: gambar -->
+                <td valign="top">
+    <img src="img/image.jpg" alt="iphone 15pro" width="200" height="150" border="1">
+</td>
+
+
+                <!-- Kolom kanan: detail dan form pembayaran -->
+                <td valign="top">
+                    <table>
+                        <tr>
+                            <td>Title Here</td>
+                            <td>:</td>
+                            <td>iphone 15pro tittanium</td>
+                        </tr>
+                        <tr>
+                            <td valign="top">Description</td>
+                            <td valign="top">:</td>
+                            <td>
+                                black titanium<br>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Total Amount</td>
+                            <td>:</td>
+                            <td>Rp. 24.999.000</td>
+                        </tr>
+                        <tr>
+                            <td>Pay to</td>
+                            <td>:</td>
+                            <td>11223344</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Payment Type</td>
+                            <td>:</td>
+                            <td>
+                                <select name="payment_type">
+                                    <option value="Mandiri">Mandiri</option>
+                                    <option value="BSI">BSI</option>
+                                    <option value="BTN">Debit <BTN</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Account Holder</td>
+                            <td>:</td>
+                            <td><input type="text" name="account_holder" value="jidane" size="30"></td>
+                        </tr>
+                        <tr>
+                            <td>Send to</td>
+                            <td>:</td>
+                            <td>
+                                <input type="text" name="send_to" value="3382-7641" size="40">
+                                <br>
+                                <input type="checkbox" name="send_phone" checked> Mobile Phone
+                                <br>
+                                <input type="checkbox" name="email_copy" checked> Email
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Send to Mobile Phone</td>
+                            <td>:</td>
+                            <td><input type="text" name="mobile_phone" value="087846244867" size="40"></td>
+                        </tr>
+                        <tr>
+                            <td>Send to Email</td>
+                            <td>:</td>
+                            <td><input type="text" name="email" value="jidanenjy@gmail.com"size="40"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td><button type="submit">Pay using bank</button></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
+
+
